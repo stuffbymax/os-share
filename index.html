@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS Market Share</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+
+<body class="light-theme">
+    <button id="theme-toggle">Toggle Dark Mode</button>
+    
+    <h1>Operating System Market Share</h1>
+    
+    <div class="download-button">
+        <button id="downloadCsv">Download CSV</button>
+    </div>
+    <div class="controls">
+        <h2>Select Operating Systems:</h2>
+        <div id="os-checkboxes"></div>
+    </div>
+
+    <div class="date-range">
+        <h2>Select Date Range:</h2>
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="start-date">
+
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" name="end-date">
+    </div>
+
+    <div class="chart-container">
+        <canvas id="osChart"></canvas>
+    </div>
+
+    <h2>Data Table</h2>
+    <div class="table-container">
+        <table id="osTable">
+            <thead>
+
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

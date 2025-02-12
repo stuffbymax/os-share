@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    font-family: calibry;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth theme transition */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/* Controls Section */
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls h2 {
+   text-align: center;
+}
+
+/* Styles for Horizontal OS Selection Table */
+#os-selection-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#os-selection-table thead,
+#os-selection-table tbody {
+    display: block;
+}
+
+#os-selection-table th,
+#os-selection-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    flex: 1;
+}
+
+#os-selection-table th {
+    background-color: #f2f2f2;
+}
+
+/* Smaller cells*/
+#os-selection-table th, #os-selection-table td {
+    border: 1px solid #ddd;
+    padding: 4px; /* Reduce vertical padding */
+    text-align: center;
+    flex: 1; /* Distribute space evenly */
+    white-space: nowrap; /* Keep content on one line */
+    font-size: 0.8em; /* Reduce font size */
+}
+
+/* Set width to the "Select" title */
+#os-selection-table th:nth-child(2),
+#os-selection-table td:nth-child(2) {
+        width: 50px; /* Adjust as needed */
+        flex: none; /* Don't grow or shrink */
+}
+
+/* This keeps header fixed */
+#os-selection-table thead th{
+    text-align: center;
+    flex-direction: column;
+}
+
+/*Fix colunms to look like a table*/
+#os-selection-table tr{
+        display: flex;
+        flex-direction: column;
+}
+
+/*Fix colunms to look like a table*/
+#os-selection-table th{
+        display: flex;
+        flex-direction: column;
+}
+
+ /*Fix colunms to look like a table*/
+#os-selection-table tbody{
+        display: flex;
+        flex-direction: row;
+}
+
+/* Remove the cell border to make it clean */
+#os-selection-table td{
+        border : 0;
+}
+
+/* Remove the cell border to make it clean */
+#os-selection-table th{
+        border : 0;
+}
+
+/* Date Range Section */
+.date-range {
+    margin-bottom: 20px;
+}
+
+.date-range label,
+.date-range input {
+    margin: 5px;
+}
+
+/* Chart Container */
+.chart-container {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Data Table */
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Download Button */
+.download-button {
+    margin-top: 20px;
+}
+
+/* Light Theme */
+body.light-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Table styles for light theme */
+body.light-theme table {
+    color: #000; /* Default table text color for light theme */
+}
+
+body.light-theme th {
+    background-color: #f2f2f2; /* Default th background for light theme */
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #222;
+    color: #eee;
+}
+
+/* Table styles for dark theme */
+body.dark-theme table {
+    color: #eee; /* Table text color for dark theme */
+}
+
+body.dark-theme th {
+    background-color: #444; /* Table header background for dark theme */
+}
