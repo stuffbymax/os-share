@@ -4630,5 +4630,29 @@
     "LG": 0,
     "Nintendo": 0,
     "Other": 0
+  },
+  {
+    "Date": "2025-02",
+    "Windows": 25.36,
+    "Android": 45.53,
+    "iOS": 18.25,
+    "OS X": 5.65,
+    "Unknown": 2.95,
+    "Linux": 1.38,
+    "Series 40": 0,
+    "SymbianOS": 0,
+    "Samsung": 0.18,
+    "BlackBerry OS": 0,
+    "Chrome OS": 0.65,
+    "Nokia Unknown": 0,
+    "Playstation": 0.01,
+    "Sony Ericsson": 0,
+    "KaiOS": 0.02,
+    "Xbox": 0.02,
+    "bada": 0,
+    "Tizen": 0,
+    "LG": 0,
+    "Nintendo": 0,
+    "Other": 0
   }
 ]
